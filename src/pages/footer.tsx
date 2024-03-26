@@ -13,7 +13,7 @@ export function Footer(){
            </div>
             <div className="flex flex-row px-8 justify-between max-w-7xl m-auto">
                 <p className="text-slate-500 text-xs">© 2024 FitProtein - Todos os diretiros reservados!</p>
-                <p className=" text-slate-100/10 font-light text-xs">Desenvolvido por <a href="#">@obrunogomesreal</a></p>
+                <p className=" text-slate-100/10 font-light text-xs">Desenvolvido por <a href="https://obrunogomes.vercel.app/" target="_blank">@obrunogomesreal</a></p>
             </div>
          
         </footer>
