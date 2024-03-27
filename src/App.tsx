@@ -4,7 +4,7 @@ import { Product } from "./pages/product";
 
 export function App() {
   return (
-    <main className="bg-slate-950">
+    <main className="bg-white">
       <Home />
 
       <Product />
