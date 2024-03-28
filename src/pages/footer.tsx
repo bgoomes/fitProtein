@@ -1,8 +1,10 @@
 import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
+import Logo from "../assets/logo.png"
 
 export function Footer(){
     return(
-        <footer className="w-full h-40 bg-fit-bg shadow-2xl shadow-white">
+        <footer className="w-full h-44 bg-fit-bg shadow-2xl shadow-white">
+          
           
 
            <div className="flex flex-col items-center justify-center p-10">
@@ -13,8 +15,9 @@ export function Footer(){
                     <a href="#" target="_blank"><FaYoutube size={24} className="text-slate-300"/></a> 
                 </nav>
            </div>
-            <div className="flex flex-row px-8 justify-between max-w-7xl m-auto">
+            <div className="flex flex-row px-8 justify-between max-w-7xl m-auto items-center">
                 <p className=" text-slate-500 text-xs">© 2024 FitProtein - Todos os diretiros reservados!</p>
+                <img src={Logo} alt="" className="w-24 -mt-8 -ml-16" />
                 <p className="text-slate-100/10 font-light text-xs">Desenvolvido por <a href="https://obrunogomes.vercel.app/" target="_blank">@obrunogomesreal</a></p>
             </div>
          
