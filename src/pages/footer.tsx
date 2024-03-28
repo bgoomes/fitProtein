@@ -1,5 +1,4 @@
 import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
-import logo from "../assets/logo.png"
 
 export function Footer(){
     return(
