@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png"
 
 export function Footer(){
     return(
-        <footer className="w-full h-44 bg-fit-bg shadow-2xl shadow-white">
+        <footer className="w-full h-44 bg-fitbg shadow-2xl shadow-white">
           
           
 
