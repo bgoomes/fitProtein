@@ -8,16 +8,17 @@ import {
   } from "@/components/ui/carousel"
 
 import { ShoppingCart } from "lucide-react"
+import produto from "../assets/WhatsApp Image 2024-03-17 at 09.38.13 (1).jpeg"
 export function Product(){
     return(
-        <div className="flex-1 flex flex-col gap-4 items-center justify-center w-full h-60 p-5 bg-fitbg">
+        <div className="flex-1 flex flex-col gap-8 items-center justify-center w-full p-5 bg-fitbg">
             <section className="w-full max-w-4xl">
             <Carousel className="w-full max-w-4xl">
-                <CarouselContent className="h-32">
+                <CarouselContent>
                 {Array.from({ length: 5 }).map((_, index) => (
                     <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                        <div className="p-1 bg-white h-32 rounded-sm">
-                            <h1>teste</h1>
+                        <div>
+                            <img src={produto} alt="Produto" className=" rounded-xl" />
                         </div>
                     </CarouselItem>
                  ))}
@@ -26,7 +27,7 @@ export function Product(){
                 <CarouselNext />
             </Carousel>
             </section>
-            <Button variant="secondary"><ShoppingCart  className="mr-2 h-4 w-4"/>Whats</Button>
+            <Button variant="secondary" className=" rounded-xl bg-lime-500 w-60 p-7 hover:bg-lime-600 text-zinc-900 text-xl"><ShoppingCart className="mr-2 w-5"/>Garanta já o seu!</Button>
         </div>
     )
 }
