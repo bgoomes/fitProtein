@@ -10,9 +10,9 @@ export function Footer(){
            <div className="flex flex-col items-center justify-center p-10">
                 
                 <nav className="flex gap-3">
-                    <a href="#" target="_blank"><FaInstagram  size={24} className="text-slate-300"/></a>
-                    <a href="#" target="_blank"><FaFacebook size={24} className="text-slate-300"/></a> 
-                    <a href="#" target="_blank"><FaYoutube size={24} className="text-slate-300"/></a> 
+                    <a href="https://www.instagram.com/fitproten?igsh=MXV5MTRreG5hem9kcA==" target="_blank"><FaInstagram  size={32} className="text-slate-300"/></a>
+                    {/* <a href="#" target="_blank"><FaFacebook size={24} className="text-slate-300"/></a> 
+                    <a href="#" target="_blank"><FaYoutube size={24} className="text-slate-300"/></a>  */}
                 </nav>
                 <img src={Logo} alt="" className=" w-24" />
            </div>

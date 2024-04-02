@@ -25,11 +25,14 @@ export function Product(){
                     </CarouselItem>
                  ))}
                 </CarouselContent>
-                <CarouselPrevious className=" bg-transparent"/>
-                <CarouselNext className=" bg-transparent"/>
+                <CarouselPrevious className="hidden sm:flex bg-transparent"/>
+                <CarouselNext className="hidden sm:flex bg-transparent"/>
             </Carousel>
             </section>
-            <Button variant="secondary" className=" rounded-xl bg-lime-500 w-60 p-7 hover:bg-lime-600 text-zinc-900 text-xl"><ShoppingCart className="mr-2 w-5"/>Garanta já o seu!</Button>
+            <a href="https://w.app/Fitprotein" target="_blank">
+                <Button variant="secondary" className=" rounded-xl bg-lime-500 w-60 p-7 hover:bg-lime-600 text-zinc-900 text-base"><ShoppingCart className="mr-2 w-5"/>Garanta já o seu!</Button>
+            </a>
+            
         </div>
     )
 }
