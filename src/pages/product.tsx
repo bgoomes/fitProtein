@@ -8,29 +8,51 @@ import {
   } from "@/components/ui/carousel"
 
 import { ShoppingCart } from "lucide-react"
-import produto from "../assets/WhatsApp Image 2024-03-17 at 09.38.13.jpeg"
+import produto from "../assets/produto1.jpeg"
+import produto2 from "../assets/produto2.jpeg"
+import produto3 from "../assets/produto6.jpeg"
+import produto4 from "../assets/produto.jpeg"
+import produto5 from "../assets/produto5.jpeg"
 
 
 export function Product(){
     return(
-        <div className="flex-1 flex flex-col gap-8 items-center justify-center w-full p-8 bg-slate-200">
-            <section className="w-full max-w-6xl">
+        <div className="flex-1 flex flex-col gap-8 items-center justify-center w-full sm:p-8 bg-slate-200">
+            <section className="w-full max-w-6xl mt-2">
             <Carousel className="w-full max-w-6xl">
                 <CarouselContent>
-                {Array.from({ length: 10 }).map((_, index) => (
-                    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                    <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                         <div>
-                            <img src={produto} alt="Produto" className=" rounded-xl" />
+                            <img src={produto} alt="Produto"/>
                         </div>
                     </CarouselItem>
-                 ))}
+                    <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                        <div>
+                            <img src={produto2} alt="Produto"  />
+                        </div>
+                    </CarouselItem>
+                    <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                        <div>
+                            <img src={produto3} alt="Produto"  />
+                        </div>
+                    </CarouselItem>
+                    <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                        <div>
+                            <img src={produto4} alt="Produto"  />
+                        </div>
+                    </CarouselItem>
+                    <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                        <div>
+                            <img src={produto5} alt="Produto"  />
+                        </div>
+                    </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious className="hidden sm:flex bg-transparent"/>
-                <CarouselNext className="hidden sm:flex bg-transparent"/>
+                <CarouselPrevious />
+                <CarouselNext />
             </Carousel>
             </section>
             <a href="https://w.app/Fitprotein" target="_blank">
-                <Button variant="secondary" className=" rounded-xl bg-lime-500 w-60 p-7 hover:bg-lime-600 text-zinc-900 text-base"><ShoppingCart className="mr-2 w-5"/>Garanta já o seu!</Button>
+                <Button variant="secondary" className=" rounded-xl bg-lime-500 w-60 p-7 hover:bg-lime-600 text-zinc-900 text-base animate-bounce"><ShoppingCart className="mr-2 w-5"/>Garanta já o seu!</Button>
             </a>
             
         </div>
