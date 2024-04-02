@@ -6,7 +6,7 @@ export function Home(){
         <div className=" w-full  bg-fitbg">
             <section className="flex flex-col sm:items-center gap-4 pb-4 relative">
                 <img src={produto} alt="" className=" sm:rounded-xl sm:w-[440px] w-full"/>
-                <div className="absolute flex flex-col items-center top-6 left-44 text-zinc-950 font-semibold font-H">
+                <div className="absolute flex flex-col items-center sm:w-full sm:left-24 top-6 left-44 text-zinc-950 font-semibold font-H">
                     <h1 className="text-4xl mb-2">Tudo em um</h1>
                     <h2 className="text-2xl">Proteína</h2>
                     <h2 className="text-2xl">Creatina</h2>
