@@ -23,10 +23,11 @@ export function Product(){
             <section className="w-full max-w-6xl mt-2">
             <Carousel plugins={[
                             Autoplay({
-                            delay: 3000,
+                            delay: 2000,
+                            stopOnInteraction: false, 
                             }),
                       ]} 
-                    onMouseEnter={stop}  
+                      
                     className="w-full max-w-6xl">
                 <CarouselContent>
                     <CarouselItem className="md:basis-1/2 lg:basis-1/3">
