@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+
 import {
     Carousel,
     CarouselContent,
@@ -8,12 +8,12 @@ import {
   } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
 
-import { ShoppingCart } from "lucide-react"
 import produto from "../assets/produto1.jpeg"
 import produto2 from "../assets/produto2.jpeg"
 import produto3 from "../assets/produto6.jpeg"
 import produto4 from "../assets/produto.jpeg"
 import produto5 from "../assets/produto5.jpeg"
+import { ButtonWhats } from "@/components/buttonWhats"
 
 
 export function Product(){
@@ -60,9 +60,8 @@ export function Product(){
                 <CarouselNext  className="hidden sm:flex" />
             </Carousel>
             </section>
-            <a href="https://wa.me/+5551992271964" target="_blank">
-                <Button variant="secondary" className=" rounded-xl bg-lime-500 w-60 p-7 hover:bg-lime-600 text-zinc-900 text-base animate-bounce"><ShoppingCart className="mr-2 w-5"/>Garanta já o seu!</Button>
-            </a>
+            <ButtonWhats animate text="Garanta já o seu!" />
+            
             
         </div>
     )
