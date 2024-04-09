@@ -23,7 +23,7 @@ export function Product(){
             <section className="w-full max-w-6xl mt-2">
             <Carousel plugins={[
                             Autoplay({
-                            delay: 2000,
+                            delay: 2750,
                             stopOnInteraction: false, 
                             }),
                       ]} 
