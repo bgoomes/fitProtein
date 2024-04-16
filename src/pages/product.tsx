@@ -19,8 +19,8 @@ import { ButtonWhats } from "@/components/buttonWhats"
 export function Product(){
     
     return(
-        <div className="flex-1 flex flex-col gap-8 items-center justify-center w-full sm:p-8 bg-slate-200">
-            <section className="w-full max-w-6xl mt-2">
+        <div className="flex-1 flex flex-col gap-8 items-center justify-center w-full pb-8 sm:p-8 bg-slate-200">
+            <section className="w-full max-w-6xl ">
             <Carousel plugins={[
                             Autoplay({
                             delay: 2750,
