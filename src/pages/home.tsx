@@ -1,6 +1,6 @@
 
 import { ButtonWhats } from "@/components/buttonWhats"
-import produto from "../assets/2.png"
+import produto from "../assets/1.png"
 
 
 export function Home(){
