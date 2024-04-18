@@ -6,10 +6,10 @@ import produto from "../assets/1.png"
 export function Home(){
     return(
         <div className=" w-full  bg-fitbg">
-            <section className="flex flex-col sm:items-center max-w-[1120px] m-auto gap-4 pb-4 relative">
+            <section className="flex flex-col sm:items-center max-w-[1280px] m-auto gap-4 pb-4 relative">
                 <img src={produto} alt="" className=" sm:rounded-lg  sm:shadow-md sm:shadow-fitbg/10 sm:w-[540px]"/>
-                <h1 className="absolute bottom-[210px] left-6 text-7xl sm:text-9xl sm:bottom-[350px] sm:left-0 text-white font-helvetica">TUDO EM UM</h1>
-                <div className="absolute bottom-[265px] left-6 text-3xl text-white sm:text-3xl sm:bottom-[450px] sm:left-0  flex sm:gap-6 font-helvetica">
+                <h1 className="absolute bottom-[210px] left-6 text-7xl sm:text-9xl sm:bottom-[350px] sm:left-0 text-white font-helvetica font-semibold">TUDO EM UM</h1>
+                <div className="absolute bottom-[265px] left-6 text-3xl text-white sm:text-3xl sm:bottom-[450px] sm:left-0  flex sm:gap-6 gap-1 font-helvetica">
                     <span>Proteína</span>
                     <span>-</span>
                     <span>Creatina</span>
