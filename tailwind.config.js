@@ -79,6 +79,9 @@ module.exports = {
       fontFamily: {
         'Ps': ['Poppins', 'sans-serif'],
         'H' : ['Anton', 'sans-serif'],
+        'Lemon': ['Lemon Milk', 'sans-serif'],
+        'helvetica': ['helveticacompressed', 'sans-serif'],
+        'helvetica-1': ['helvetica', 'sans-serif']
       },
     },
   },
