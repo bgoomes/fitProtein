@@ -33,35 +33,32 @@ export function Product(){
                 <CarouselContent>
                     <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                         <div className="relative">
-                            <div className="absolute w-full h-24 px-8 pt-3 bg-black/40 bottom-0 font-helvetica-1 text-white">
-                                <p>Pacote Basic(5 unidades): R$ 79,00</p>
-                                <p>Pacote Standard(10 unidades): R$ 139,00</p>
-                                <p>Pacote Premium(20 unidades): R$ 275,00</p>
+                            <div className="absolute w-full flex flex-col gap-2 items-center h-20 pt-3 bg-black/40 bottom-0 font-helvetica-1 text-white">
+                                <p>Pacote Basic(5 unidades)</p>
+                                <span className="font-medium"> R$ 79,00</span>   
                             </div>
                             <img src={produto} alt="Produto"/>
                         </div>
                     </CarouselItem>
                     <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                         <div className="relative">
-                            <div className="absolute w-full h-24 px-8 pt-3 bg-black/40 bottom-0 font-helvetica-1 text-white">
-                                <p>Pacote Basic(5 unidades): R$ 79,00</p>
-                                <p>Pacote Standard(10 unidades): R$ 139,00</p>
-                                <p>Pacote Premium(20 unidades): R$ 275,00</p>
+                            <div className="absolute w-full flex flex-col gap-2 items-center h-20 pt-3 bg-black/40 bottom-0 font-helvetica-1 text-white">
+                                <p>Pacote Standard(10 unidades)</p> 
+                                <span className="font-medium">R$ 139,00</span>
                             </div>
                             <img src={produto2} alt="Produto"  />
                         </div>
                     </CarouselItem>
                     <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                         <div className="relative">
-                             <div className="absolute w-full h-24 px-8 pt-3 bg-black/40 bottom-0 font-helvetica-1 text-white">
-                                <p>Pacote Basic(5 unidades): R$ 79,00</p>
-                                <p>Pacote Standard(10 unidades): R$ 139,00</p>
-                                <p>Pacote Premium(20 unidades): R$ 275,00</p>
+                             <div className="absolute w-full flex flex-col gap-2 items-center h-20 pt-3 bg-black/40 bottom-0 font-helvetica-1 text-white">
+                                <p>Pacote Premium(20 unidades)</p>
+                                <span className="font-medium">R$ 275,00</span>
                             </div>
                             <img src={produto3} alt="Produto"  />
                         </div>
                     </CarouselItem>
-                    <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                    {/* <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                         <div className="relative">
                             <div className="absolute w-full h-24 px-8 pt-3 bg-black/40 bottom-0 font-helvetica-1 text-white">
                                 <p>Pacote Basic(5 unidades): R$ 79,00</p>
@@ -80,7 +77,7 @@ export function Product(){
                             </div>
                             <img src={produto5} alt="Produto"  />
                         </div>
-                    </CarouselItem>
+                    </CarouselItem> */}
                 </CarouselContent>
                 <CarouselPrevious className="hidden sm:flex"/>
                 <CarouselNext  className="hidden sm:flex" />
