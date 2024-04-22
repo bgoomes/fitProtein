@@ -81,7 +81,9 @@ module.exports = {
         'H' : ['Anton', 'sans-serif'],
         'Lemon': ['Lemon Milk', 'sans-serif'],
         'helvetica': ['helveticacompressed', 'sans-serif'],
-        'helvetica-1': ['helvetica', 'sans-serif']
+        'helvetica-1': ['helvetica', 'sans-serif'],
+        'helvetica-2': ['helveticaBold', 'sans-serif'],
+        'helvetica-3': ['helveticaLight', 'sans-serif']
       },
     },
   },

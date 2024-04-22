@@ -18,7 +18,7 @@ export function Home(){
                     <span>Fibras</span>
                 </div>
                 <div className="flex flex-col items-center gap-4 px-8">
-                    <p className="text-slate-100 text-center text-sm font-helvetica-1">Nosso mix de proteínas foi feito para você que não tem tempo para uma refeição balanceada devido a correria do dia a dia!</p>
+                    <p className="text-slate-300 text-center font-helvetica-2">Nosso mix de proteínas foi feito para você que não tem tempo para uma refeição balanceada devido a correria do dia a dia!</p>
                     <ButtonWhats  text="Garanta já o seu!" />
                 </div>
              </section>   
