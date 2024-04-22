@@ -32,7 +32,7 @@ export function Product(){
                     <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                         <div className="relative">
                             <div className="absolute w-full flex flex-col gap-2 items-center h-20 pt-3 bg-black/40 bottom-0 font-Lemon text-white">
-                                <p>Pacote Basic(5 unidades)</p>
+                                <p>Pacote Basic (5 unidades)</p>
                                 <span className="font-medium"> R$ 79,00</span>   
                             </div>
                             <img src={produto} alt="Produto"/>
@@ -41,7 +41,7 @@ export function Product(){
                     <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                         <div className="relative">
                             <div className="absolute w-full flex flex-col gap-2 items-center h-20 pt-3 bg-black/40 bottom-0 font-Lemon text-white">
-                                <p>Pacote Standard(10 unidades)</p> 
+                                <p>Pacote Standard (10 unidades)</p> 
                                 <span className="font-medium">R$ 139,00</span>
                             </div>
                             <img src={produto2} alt="Produto"  />
@@ -50,7 +50,7 @@ export function Product(){
                     <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                         <div className="relative">
                              <div className="absolute w-full flex flex-col gap-2 items-center h-20 pt-3 bg-black/40 bottom-0 font-Lemon  text-white">
-                                <p>Pacote Premium(20 unidades)</p>
+                                <p>Pacote Premium (20 unidades)</p>
                                 <span className="font-medium">R$ 275,00</span>
                             </div>
                             <img src={produto3} alt="Produto"  />
